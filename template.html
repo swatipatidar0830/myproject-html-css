@@ -1,0 +1,218 @@
+<html>
+
+<head>
+    <title>my template</title>
+    <style>
+        .flex {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            flex-direction: row;
+            gap: 40px;
+            /* background-color: white; */
+        }
+
+        .nav {
+            /* display: flex; */
+            justify-content: right;
+            align-items: center;
+            /* flex-direction: row; */
+            width: 100%;
+            height: 60px;
+            position: fixed;
+            background-color: white;
+            z-index: 3;
+
+
+        }
+
+        .flex2 {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .flex3 {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 13%;
+
+        }
+
+        .flex4 {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding-left: 13%;
+        }
+
+        a {
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+            background-color: aliceblue;
+
+
+        }
+
+        .img {
+            height: 90%;
+            width: 100%;
+        }
+
+        .img2 {
+            height: 100%;
+            width: 50%;
+            /* padding-right: 20%; */
+            /* margin-left: 40px; */
+        }
+
+        a:hover {
+            background-color: lightgrey;
+            color: black;
+            height: 30px;
+
+        }
+
+        /* .about{
+            padding-bottom:50%;
+        } */
+
+        /* h1 b{
+            text-align: center;
+        } */
+
+        .input {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height:55px;">
+        <div class="flex nav">
+            <div class="flex2 nav">
+                <div style="width:80%;"> <a href="">Gourmet au catering</a></div>
+                <div><a href="">About</a>
+                    <a href="">Menu</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <img src="./hamburger.jpg" class="img">
+    <div class="flex2">
+        <img src="./tablesetting2.jpg" style="margin-top: 50px; margin-left:50px">
+        <div style="width:70%">
+            <p>
+            <h1 style="text-align: center; margin: 40px; margin-left: 100px;">About Catering</h1>
+
+            <div style="margin: 40px; margin-left: 100px; font-size: 20px;">
+                <h5 class="input2; font-size=:18px;">Tradition since 1889</h5>
+                <br> The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur
+                adipiscing
+                elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We
+                only use seasonal ingredients.<br><br><br>
+
+                <div style="color: grey;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est
+                    laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna
+                    aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</div>
+            </div>
+            </p>
+
+        </div>
+    </div><br><br><br>
+    <div>
+        <hr>
+        <div class="flex3">
+            <div><br><br><br>
+
+                <h1 style="text-align: center" ; margin: 40px; margin-right: 100px;>our menu</h1>
+                <div style="margin: 40px; margin-right: 100; font-size: 25px;">Bread Basket
+                    <br>
+                    <div style="color:grey"> Assortment of fresh baked fruit breads and muffins 5.50</div><br>
+
+
+                    <br> Honey Almond Granola with Fruits<br>
+                    <div style="color: grey;">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+                    </div><br>
+
+
+                    <br> Belgian Waffle<br>
+                    <div style="color:grey;">Vanilla flavored batter with malted flour 7.50</div><br>
+
+
+                    <br>Scrambled eggs<br>
+                    <div style="color:grey;"> Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+                    </div><br>
+
+
+                    <br> Blueberry Pancakes<br>
+                    <div style="color:grey;"> With syrup, butter and lots of berries 8.50</div><br>
+                </div>
+            </div>
+            <div class="flex4">
+                <img src="./tablesetting.jpg" style="margin-right: 80px;">
+            </div>
+
+        </div>
+        <div class="flex5" style="margin:0 80px 0 80px">
+            <h1>Contact</h1>
+            <br>
+            <p>
+                We offer full-service catering for any event, large or small. We understand your needs and we will cater
+                the food to satisfy the biggerst criteria of them all, both look and taste.<br> Do not hesitate to
+                contact us.
+
+                <br><br>
+            <h3 style="color: aqua;">
+                  <div>Catering Service, 42nd Living St, 43043 New York, NY
+                </div>
+            </h3>
+
+            <br><br>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a
+            message here:<br><br><br><br>
+
+            <form>
+                <p style="color:grey">
+                    <input class="input" type="text" placeholder="Name" required="" name="Name">
+                </p>
+
+                <p>
+                    <input class="input" type="number" placeholder="How many people" required="" name="People">
+                </p>
+
+                <p>
+                    <input class="input" type="datetime-local" placeholder="Date and time" required="" name="date"
+                        value="2020-11-16T20:00">
+                </p>
+
+                <p>
+                    <input class="input" type="text" placeholder="Message \ Special requirements" required=""
+                        name="Message">
+                </p>
+
+            </form>
+
+            </p>
+            <div style="width:80%;"> <a href="">SEND MESSAGE</a>
+            </div>
+
+        </div>
+
+</body>
+
+
+</body>
+
+</html>

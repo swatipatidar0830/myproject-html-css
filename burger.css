@@ -1,0 +1,116 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    width: 99%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    position: fixed;
+    top: 0px;
+    
+}
+
+.img {
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 30px;
+}
+
+.img2 {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+    gap: 20px;
+
+
+
+
+}
+
+.text {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px !important;
+}
+
+.text2 {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-left: 200px;
+    flex-direction: row;
+    margin-top: 60px;
+    /* margin-top: 200px; */
+    /* margin-left: 50px; */
+    border: 1px solid red;
+    width: 50%;
+}
+
+.img3 {
+    display: flex;
+    margin-left: 700px;
+    /* margin-top: 20px; */
+    border: 1px solid red;
+    margin-bottom: 100px;
+}
+
+.last {
+    /* display: flex; */
+    margin-left: 200px;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.font {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+.menutext {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.swati {
+    display: flex;
+    /* margin-top: 10px; */
+    width: 100%;
+    border: 1px solid green;
+}
+
+.input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 13%;
+
+}
+
+.flex4 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 13%;
+}
